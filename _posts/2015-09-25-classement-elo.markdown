@@ -48,7 +48,7 @@ par point ou le nombre de buts marqués ou encaissés ne permettent pas de compa
 Le **classement Elo**, utilisé initialement pour classer les joueurs d'échec, est un outil plus sûr pour comparer
 la valeur des équipes.
 
-## Au origines
+## Aux origines
 
 En 1960, la fédération américaine d'échec adopte le classement Elo pour classer ses joueurs. Ce système inventé
 par **Arpad Elo** permet de classer les joueurs en ajoutant ou retirant après chaque match un nombre de points,
