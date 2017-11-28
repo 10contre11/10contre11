@@ -10,12 +10,10 @@ html, body { height: 100%; }
 
 body {
   font-family: Courier, "Lucida Sans Typewriter", "Lucida Typewriter", "DejaVu Sans Mono", monospace;
-  font-size: 87.5%;
+  font-size: 95%;
   line-height: 1.5;
   font-weight: 300;
-  color: #352C26;
-  background-color: #F3ECE2;
-  background-image: url(../img/sand.png);
+  color: #222;
 }
 
 h1, h2, h3, h4, h5, h6 { font-size: 100%; font-weight: 400; }
