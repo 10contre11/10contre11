@@ -11,7 +11,7 @@ Dans la suite de l'article, l'expression *expected goals* pourra être abbrégé
 
 ## Les données
 
-L'élément de base pour notre modèle est le jeu de données. Nous utiliserons ici des données issues du fournisseur [Opta](http://optasports.fr), obtenue depuis plusieurs sites dont [whoscored](https://www.whoscored.com/) et [squawka](http://www.squawka.com).
+L'élément de base pour notre modèle est le jeu de données. Nous utiliserons ici des données issues du fournisseur [Opta](http://optasports.fr), obtenues depuis plusieurs sites dont [whoscored](https://www.whoscored.com/) et [squawka](http://www.squawka.com).
 
 *Opta* fournit pour chaque match les données des évènements du match: passes, tirs, corners, etc. Les évènements étant horodatés, il est possible de reconstituer le film du match.
 
@@ -19,11 +19,16 @@ Dans cet article, nous allons analyser l'évènement de tir. Avec nos données h
 
 Le jeu de données utilisé concerne les championnats de France, Italie, Espagne, Allemagne et Angleterre, ainsi que la Ligue Europa et la Ligue des Champions.
 
-Au total, **164 887 tirs** sont analysés pour la période allant de la saison 2012/2013 à 2017/2018 (au 24/11/2017). Les buts contre son camp et les penalties ne sont pas inclus dans le jeu de données.
+Au total, **178 427 tirs** sont analysés pour la période allant de la saison 2012/2013 à 2017/2018 (au 24/11/2017). Les buts contre son camp et les penalties ne sont pas inclus dans le jeu de données.
 
 ## Exploration générale
 
-Commençons à explorer les données brutes telles qu'elles sont obtenues. A l'aide des coordonnées de tir, nous pouvons calculer la distance de chaque tir par rapport au centre du but adverse.
+Commençons à explorer les données brutes telles qu'elles sont obtenues. Tout d'abord, voici la répartition des conséquences d'un tir tenté (bloqué par un défenseur, but, non-cadré, sauvé par le gardien, poteau).
+Sur nos 178 427 tirs, 17 448 ont été marqués, soit 9.78% de taux de réussite.
+
+![Résultats des tirs](/img/posts/20171124_exploration_donnees_pour_expg/resultats_tirs.png)
+
+A l'aide des coordonnées de tir, nous pouvons calculer la distance de chaque tir par rapport au centre du but adverse.
 
 Sur ce graphique, les barres bleues montrent le nombre de tir, les barres rouges le nombre de buts. Sans surprise, beaucoup de tirs sont pris depuis l'intérieur de la surface de réparation, à moins de 18 mètres.
 
