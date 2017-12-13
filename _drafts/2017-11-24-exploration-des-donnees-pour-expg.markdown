@@ -24,7 +24,7 @@ Au total, **178 427 tirs** sont analysés pour la période allant de la saison 2
 ## Exploration générale
 
 Commençons à explorer les données brutes telles qu'elles sont obtenues. Tout d'abord, voici la répartition des conséquences d'un tir tenté (bloqué par un défenseur, but, non-cadré, sauvé par le gardien, poteau).
-Sur nos 178 427 tirs, 17 448 ont été marqués, soit 9.78% de taux de réussite.
+Sur nos 178 427 tirs, 17 448 ont été marqués, soit 9.78% de taux de réussite. Les tirs sont majoritairement non-cadrés à 40% (71000 tirs), presqu'autant de tirs bloqués et arrêtés par le gardien à environ 24%, et 2% de tirs sur les montants.
 
 ![Résultats des tirs](/img/posts/20171124_exploration_donnees_pour_expg/resultats_tirs.png)
 
@@ -34,7 +34,7 @@ Sur ce graphique, les barres bleues montrent le nombre de tir, les barres rouges
 
 ![Distance des tirs](/img/posts/20171124_exploration_donnees_pour_expg/distance_tir.png)
 
-Les coordonées permettent également d'obtenir l'angle de tir par rapport au centre du but adverse. Les tirs avec le plus grand angle sont privilégiés, et les buts suivent majoritairement la courbe du nombre de tirs tentés.
+Les coordonées permettent également d'obtenir l'angle de tir par rapport au centre du but adverse. Les tirs avec le plus grand angle sont privilégiés, et les buts suivent majoritairement la courbe du nombre de tirs tentés. Les angles à droite et à gauche du but sont cumulés pour obtenir le nombre de tirs et de buts. Pour l'angle de 90 degrés, seuls les tirs en face du but sont comptés donc le nombre de tirs chute.
 
 ![Angle des tirs](/img/posts/20171124_exploration_donnees_pour_expg/angle_tir.png)
 
