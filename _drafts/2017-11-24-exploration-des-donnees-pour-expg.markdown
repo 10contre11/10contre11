@@ -40,6 +40,6 @@ Les coordonées permettent également d'obtenir l'angle de tir par rapport au ce
 
 ## Ajout de données
 
-Les données brutes ne permettent pas d'obtenir une description précise des tirs. L'horodatage des données permet de reconstituer l'action amenant au tir. Voici une analyse des actions précédant les tirs (dans l'ordre sur corner, centre, centre en retrait, passe, passe en retrait, tir sauvé, tir non cadré, tir bloqué par un défenseur, tir sur poteau, interception, tackle, coup de pied arrêté).
+Les données brutes ne permettent pas d'obtenir une description précise des tirs. L'horodatage des données permet de reconstituer l'action amenant au tir. Voici une analyse des actions précédant les tirs (dans l'ordre sur corner, centre, centre en retrait, passe d'un co-équipier, passe d'un adversaire, passe en retrait).
 
-![Action avant tirs](/img/posts/20171124_exploration_donnees_pour_expg/action_avant_tir.png)
+![Action avant tirs](/img/posts/20171124_exploration_donnees_pour_expg/action_avant_tir_passe.png)
